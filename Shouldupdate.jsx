@@ -2,9 +2,9 @@ import React from "react";
 class Shouldupdate extends React.Component {
     state = {color:"red"  } 
 
-    // shouldComponentUpdate(){
-    //     return false;
-    // }
+    shouldComponentUpdate(){
+        return false;
+    }
     change =()=>{
         this.setState({color:"blue"})
     }
